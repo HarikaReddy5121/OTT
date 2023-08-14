@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href=" ">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My OTT</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
+    <style>
+      body{
+        background-color: black;
+      }
+        *{
+            margin: 0px;
+        }
+        nav{
+            height:180px;
+            width: 100%;
+            background-color: rgb(219, 213, 213);
+            display: flex;
+            align-items: center;
+            position: fixed;
+            top: 0;
+            z-index: 100;
+
+        }
+        .nav-logo img{
+            height: 100px;
+            width: 750px;
+            display: inline;
+            margin: -15px 6px 7px 5px;
+        }
+        nav .nav-items{
+            position: absolute;
+            right: 20px;
+
+        }
+        .nav-items a{
+            text-decoration: none;
+            font-size: 20px;
+            padding: 15px;
+            color: rgb(2, 8, 2) ;
+        }
+        .nav-items :hover a{
+            filter: blur(2px);
+        }
+        .nav-items a:hover{
+            color: rgb(84, 37, 154);
+            filter: blur(0px);
+        }
+        .carousel-inner img{
+          height: 300px;
+          width: 70%;
+        } 
+        .carousel-inner{
+          margin: 10px 0px 0px 100px;
+        }
+        .carousel-control-prev-icon{
+          position: relative;
+          left: 100px; 
+        }
+        h2{
+          color: darkcyan;
+          display: inline; 
+        }
+        h2:hover{
+          color: firebrick;
+
+        }
+        .frequent-img{
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-around;
+        }
+
+      </style>
+</head>
+<body>
+    <nav>
+        <div class="nav-logo"></div>
+        <img src="hariii.jpg" alt="">
+    </div>
+
+    <div class="nav-items">
+        <a href="">Home</a>
+        <a href="">Frequently Watched</a>
+        <a href="">Recently Released</a>
+        <a href="">Top Rated</a>
+        <a href="">Favourites</a>
+        <a href="">About</a>
+        <a href="">Signup/signin</a>
+    </div>
+    </nav>
+    <!-- Home start -->
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://wallpapercave.com/wp/wp7774893.jpg" class="d-block" alt="..." >
+          </div>
+          <div class="carousel-item">
+            <img src="https://wallpapercave.com/wp/wp10855627.jpg" class="d-block" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://wallpapercave.com/wp/wp8981269.jpg" class="d-block" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>           
+      </div>
+
+    <!-- Home end -->
+    <!--frequently watched starts-->
+    <div class="Frequent">
+      <h2>Frequently Watched</h2>
+      <div class="Frequent-image">
+        <img src="frreq 1.jpg" alt="" height="300px" width="32%">
+        <img src="freq 2.jpg" alt="" height="300px" width="33%">
+        <img src="freq 3.jpg" alt="" height="300px" width="33%">
+        <img src="freq 4.jpg" alt="" height="300px" width="33%">
+        <img src="freq 9.jpg" alt="" height="300px" width="33%">
+        <img src="freq 5.jpg" alt="" height="300px" width="33%">
+        <img src="freq 6.jpg" alt="" height="300px" width="33%">
+        <img src="freq 7.jpeg" alt="" height="300px" width="33%">
+        <img src="freq 8.jpg" alt="" height="300px" width="33%">
+      </div>
+      <!--recent section end-->
+      
+
+      <!--Top Rated Section starts-->
+      <div class="top-rated" id="rated"></div>
+      <h2>Top Rated</h2>
+      <div class="Top-rated">
+        <img src="bah.jpg" alt=""  height="300px" width="32%">
+        <img src="col.jpg" alt=""  height="300px" width="32%">
+        <img src="may.avif" alt=""  height="300px" width="32%">
+        <img src="OMF.jpg" alt=""  height="300px" width="32%">
+        <img src="lov.cms" alt=""  height="300px" width="32%">
+        <img src="MSD.jpg" alt="" height="300px" width="32%">
+      </div>
+    </div>
+    
+</body>
+</html>
